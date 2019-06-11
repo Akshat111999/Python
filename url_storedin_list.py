@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 import time
-from search import google
+from googlesearch import 
 web= input("please enter topic: ")
 # print(search(web))
 url=[]
