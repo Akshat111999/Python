@@ -1,6 +1,6 @@
 import datetime
 user_name=input("Enter your name:")
-Enter your name:bhavya_vijay
+
 now=datetime.datetime.now()
 this_time=now.hour
 
