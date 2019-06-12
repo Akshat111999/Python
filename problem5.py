@@ -1,14 +1,13 @@
 import datetime
 user_name=input("Enter your name:")
 
-now=datetime.datetime.now()
-this_time=now.hour
+now=datetime.datetime.now().hour
 
-if this_time in range(6,12):
+if now < 12:
       print("Good Morning...{}".format(user_name))
-elif this_time in range(12,16):
+elif 12<= now <16 :
       print("Good Afternoon...{}".format(user_name))
-elif this_time in range(16,20):
+elif 16<= now <19a:
       print("Good Evening...{}".format(user_name))
 else :
       print("Good Night...{}".format(user_name))
