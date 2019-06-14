@@ -19,3 +19,5 @@ print(url)
 for i in range(3):
     qr= pyqrcode.create(url[i])
     qr.svg("url"+str(i)+".png", scale=8)
+
+os.system('mv *.png /var/www/html/qr')
