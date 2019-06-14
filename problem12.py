@@ -22,6 +22,6 @@ for i in range(3):
     print(qr.terminal()) 
 	
 	
-os.system('mkdir 
+os.system('mkdir /var/www/html/qr')
 	
 os.system('mv *.png /var/www/html/qr')
