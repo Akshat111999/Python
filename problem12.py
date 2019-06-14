@@ -7,6 +7,7 @@ from googlesearch import search
 web= input("please enter topic: ")
 # print(search(web))
 url=[]
+u=0
 for i in search(web, stop=3):
 	print(i)
 	time.sleep(1)
@@ -19,5 +20,9 @@ print(url)
 for i in range(3):
     qr= pyqrcode.create(url[i])
     qr.svg("url"+str(i)+".png", scale=8)
+    u+=1
+    print(
+	
+	
 
 os.system('mv *.png /var/www/html/qr')
