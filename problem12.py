@@ -14,16 +14,14 @@ for i in search(web, stop=3):
 	url.append(i)
 
 print(url)
-#img_size= int(input("enter image size, eg: 16x16 --> " ))
-#img_name=input("enter image name--> " )
-#os.system('qrencode -s '+ img_size + ' -o ' + img_name )
+
 for i in range(3):
-    qr= pyqrcode.create(url[i])
+    qr= pyqrcode.create(url[u])
     qr.svg("url"+str(i)+".png", scale=8)
     u+=1
     print(qr.terminal()) 
 	
 	
-
+os.system('mkdir 
 	
 os.system('mv *.png /var/www/html/qr')
