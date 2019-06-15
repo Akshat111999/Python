@@ -3,7 +3,7 @@
 #i)  print only those numbers greater than 5
 #ii)  also print those numbers those are less than or  equals to 2  ( <= 2 )
 
-iii)  store these answers in in two different list also
+#iii)  store these answers in in two different list also
 
 
 
