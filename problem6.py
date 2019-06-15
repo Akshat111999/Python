@@ -5,7 +5,7 @@ options='''
 press 1 to single file view (to view the contents of a file)
 press 2 to cat -n view (to show line numbers)  
 press 3 to cat -e view (adds $ sign at the end of the line)
-press 4 to multiple file view ()
+press 4 to multiple file view (to view contents of multiple files at once)
 '''
 
 print(options)
