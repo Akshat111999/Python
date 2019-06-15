@@ -16,3 +16,4 @@ while 4 >  3  :
     s.sendto(nmsg,(recv_ip,recv_port)) 
     #  recv data  from  recv  
     print(s.recvfrom(10))
+s.close()
