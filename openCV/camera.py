@@ -1,3 +1,5 @@
+
+#pip install opencv-python
 import cv2
 #starting camera
 
@@ -8,7 +10,7 @@ cap=cv2.VideoCapture(0)
 if cap.isOpened():
     print("camera is working")
 else:
-    print("problem in opening camera")      
+    print("problem occured in opening camera")      
 
 
 #now taking and reading input from camera
@@ -24,6 +26,6 @@ cv2.imwrite('new.jpg',img)
 
 #wait for window to close
 cv2.waitKey(0)   #mili/micro seconds   ---- if given 0 then image wait for infinite time till we stop it
-
+cv2.destroyAllWindows()
 #to close camera
 cap.release()
