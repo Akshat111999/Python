@@ -1,3 +1,5 @@
+#pip install opencv-python
+
 import cv2
 #starting camera
 
