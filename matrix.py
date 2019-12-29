@@ -14,3 +14,10 @@ matrix=np.matrix(m)
 
 print(matrix)
 
+fig = plt.figure()
+ax=fig.add_subplot(1,1,1)
+ax.set_aspect('equal')
+plt.imshow(matrix,interpolation='nearest', cmap=plt.cm.autumn)
+plt.colorbar()
+plt.title('Matrix Visual Representation')
+plt.show()
