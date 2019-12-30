@@ -1,6 +1,8 @@
+#importing libraries
 import numpy as np
 import matplotlib.pyplot as plt
 
+#making a matrix
 m=[[0.0,1.2,3.3,2.5,1.4,2.34,3.2,1.2,2.33],
    [1.23,0.0,1.22,2.23,3.1,1.34,2.45,3.51,1.22],
    [2.34,1.45,0.0,4.2,3.67,1.24,2.66,1.46,1.46],
