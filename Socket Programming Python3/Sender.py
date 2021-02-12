@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 import  socket 
-recv_ip="192.168.1.57"
-recv_port=4444  #    0 - 1024  -- you can check free udp port netstat -nulp
+recv_ip="127.0.0.1" # don't shoq your actual ip in code
+recv_port=8888  #    0 - 1024  -- you can check free udp port netstat -nulp
 
 #  creating  udp socket
 #               ip type v4 ,  uDp  
